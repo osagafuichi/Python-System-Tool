@@ -31,15 +31,15 @@ The tool is designed with a clear separation between indexing, storage, and quer
 ## Usage
 
 ### Index a directory:
-  python3 main.py index --path /path/to/directory
+  `python3 main.py index --path /path/to/directory`
 ### Search indexed files:
-  python3 main.py search --name report
+  `python3 main.py search --name report`
 ### Sort results by Name:
-  python3 main.py search --name report --sort name
+  `python3 main.py search --name report --sort name`
 ### Sort results by size:
-  python3 main.py search --name report --sort size
+  `python3 main.py search --name report --sort size`
 ### Sort results by last modified time:
-  python3 main.py search --name report --sort date
+  `python3 main.py search --name report --sort date`
 
 ## Design Notes
 
